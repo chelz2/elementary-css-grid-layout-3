@@ -58,3 +58,15 @@ footer {
   padding: 20px;
   grid-area: footer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "search"
+      "nav"
+      "main"
+      "aside"
+      "footer";
+  }
+}
